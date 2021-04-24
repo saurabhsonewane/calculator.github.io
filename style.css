@@ -1,0 +1,39 @@
+body{
+    background-color: #1e2144;
+    z-index: -1;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+}
+
+button{
+    height: 40px;
+    width: 60px;
+    color: white;
+    background: linear-gradient(
+135deg
+,#4a226b,#ae3fbd);
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+#screen{
+    width: 238px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+   
+}
+
+h1,p{
+    color: white;
+}
+
